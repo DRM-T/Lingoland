@@ -1,0 +1,180 @@
+|airplane
+máy bay
+|ambulance
+xe cứu thương
+|bicycle
+xe đạp
+|bus
+xe buýt
+|car
+xe ô tô
+|ship
+thuyền
+|truck
+xe tải
+|van
+xe thùng
+|train
+tàu hỏa
+|fire truck
+xe cứu hỏa
+|rocket
+tên lửa
+|scooter
+xe tay ga
+|motocycle
+xe máy
+|helicopter
+trực thăng
+|subway
+xe điện ngầm
+|submarine
+tàu ngầm
+|tractor
+máy kéo
+|taxi
+xe tắc xi
+|teacher	
+giáo viên
+|doctor		
+bác sĩ
+|singer		
+ca sĩ
+|nurse		
+y tá
+|chef		
+đầu bếp
+|police	
+cảnh sát
+|pilot		
+phi công
+|artist		
+họa sĩ 	
+|businessman	
+doanh nhân
+|lawyer		 
+luật sư
+|fireman	
+lính cứu hỏa
+|barber		
+thợ cắt tóc
+|painter	
+thợ sơn
+|waiter		
+bồi bàn
+|farmer		
+nông dân
+|photographer	
+nhiếp ảnh gia
+|reporter	
+phóng viên
+|scientist	
+nhà khoa học
+|orange
+quả cam
+|apple
+quả táo
+|banana
+quả chuối
+|cucumber
+quả dưa chuột
+|pear
+quả lê
+|watermelon
+quả dưa hấu
+|jackfruit
+quả mít
+|mango
+quả xoài
+|mangoteen
+quả măng cụt
+|peach
+quả đào
+|cherry
+quả anh đào
+|lemon
+quả chanh
+|pomelo
+quả bưởi
+|dragonfruit
+quả thanh long
+|coconut
+quả dừa
+|avocado
+quả bơ
+|pineapple
+quả dứa
+|grape
+quả nho
+|eye
+mắt
+|nose
+mũi
+|head
+đầu
+|mouth
+miệng
+|lip
+môi
+|ear
+tai
+|eyebrow
+lông mày
+|toe
+ngón chân
+|arm
+cánh tay
+|leg
+chân
+|feet
+bàn chân
+|teeth
+răng
+|hair
+tóc
+|neck
+cổ
+|knee
+đầu gối
+|chin 
+cằm
+|tongue
+lưỡi
+|nail 
+móng tay
+|cat  	
+con mèo
+|dog	
+con chó
+|bird	
+con chim
+|ant	
+con kiến
+|mouse	
+con chuột
+|lion	
+con sư tử
+|rabbit	
+con thỏ
+|zebra	
+con ngựa vằn
+|pig	
+con lợn
+|chicken	
+con gà
+|duck	
+con vịt
+|bee		
+con ong
+|buffalo	
+con trâu
+|cow		
+con bò
+|whale	
+con cá voi
+|fox	
+con cáo
+|horse	
+con ngựa
+|monkey	
+con khỉ

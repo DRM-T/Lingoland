@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="780.0" styleClass="container" stylesheets="@../utils/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.tuyet_chi_giang.controllers.SearchController">
+   <children>
+      <ImageView fitHeight="49.0" fitWidth="50.0" layoutX="276.0" layoutY="236.0" opacity="0.82" pickOnBounds="true" preserveRatio="true" rotate="25.5">
+         <image>
+            <Image url="@../utils/images/flower(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="52.0" fitWidth="44.0" layoutX="-8.0" layoutY="278.0" opacity="0.71" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../utils/images/img16.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="79.0" fitWidth="111.0" layoutX="411.0" layoutY="51.0" opacity="0.82" pickOnBounds="true" preserveRatio="true" rotate="-21.8">
+         <image>
+            <Image url="@../utils/images/murphy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="56.0" layoutX="298.0" layoutY="318.0" opacity="0.81" pickOnBounds="true" preserveRatio="true" rotate="-29.7">
+         <image>
+            <Image url="@../utils/images/gauckae.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="98.0" layoutX="632.0" layoutY="149.0" opacity="0.66" pickOnBounds="true" preserveRatio="true" rotate="-27.6">
+         <image>
+            <Image url="@../utils/images/hoamattroi.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="53.0" fitWidth="56.0" layoutX="298.0" layoutY="180.0" opacity="0.82" pickOnBounds="true" preserveRatio="true" rotate="42.7">
+         <image>
+            <Image url="@../utils/images/crossaint.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="43.0" layoutX="305.0" layoutY="467.0" pickOnBounds="true" preserveRatio="true" rotate="-67.8">
+         <image>
+            <Image url="@../utils/images/img14.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="283.0" layoutY="31.0" prefHeight="69.0" prefWidth="442.0" styleClass="searchBar" stylesheets="@../utils/style.css">
+         <children>
+            <TextField fx:id="searchBar" layoutX="52.0" layoutY="10.0" prefHeight="50.0" prefWidth="368.0" promptText="Nhập từ bạn muốn tìm kiếm" styleClass="searchText" stylesheets="@../utils/style.css" />
+         </children>
+      </Pane>
+      <AnchorPane layoutX="326.0" layoutY="192.0" prefHeight="310.0" prefWidth="443.0" styleClass="anchorPane" stylesheets="@../utils/style.css">
+         <children>
+            <TextArea fx:id="explain" layoutX="15.0" layoutY="81.0" prefHeight="214.0" prefWidth="413.0" promptText="Nghĩa của từ sẽ hiện ở đây." styleClass="explainText" stylesheets="@../utils/style.css" />
+            <Pane layoutX="7.0" layoutY="75.0" prefHeight="3.0" prefWidth="430.0" styleClass="devideBar" />
+            <TextField fx:id="target" layoutX="12.0" layoutY="14.0" prefHeight="43.0" prefWidth="254.0" promptText="Từ được chọn" styleClass="targetText" stylesheets="@../utils/style.css" />
+            <Button fx:id="edit" layoutX="262.0" layoutY="15.0" mnemonicParsing="false" onAction="#editExplain" styleClass="menuButton">
+               <tooltip>
+                  <Tooltip text="Sửa từ" />
+               </tooltip>
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../utils/icons/icon_pen2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="sound" layoutX="322.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleClickSoundBtn" styleClass="menuButton">
+               <tooltip>
+                  <Tooltip text="Phát âm" />
+               </tooltip>
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="menuButton">
+                     <image>
+                        <Image url="@../utils/icons/icon_loa2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="save" layoutX="376.0" layoutY="83.0" mnemonicParsing="false" onAction="#saveEdit" styleClass="menuButton" stylesheets="@../utils/style.css">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" styleClass="menuButton">
+                     <image>
+                        <Image url="@../utils/icons/icon_yes2.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="20.0" layoutY="193.0" prefHeight="310.0" prefWidth="280.0" styleClass="anchorPane" stylesheets="@../utils/style.css">
+         <children>
+            <ListView fx:id="listResults" layoutX="19.0" layoutY="12.0" onMouseClicked="#chooseTargetByClick" prefHeight="289.0" prefWidth="242.0" stylesheets="@../utils/style.css" />
+         </children>
+      </AnchorPane>
+      <Pane layoutX="353.0" layoutY="143.0" prefHeight="43.0" prefWidth="230.0" styleClass="searchBar" stylesheets="@../utils/style.css">
+         <children>
+            <TextField layoutX="71.0" prefHeight="43.0" prefWidth="153.0" promptText="Nhập từ bạn muốn tìm kiếm" styleClass="searchText" stylesheets="@../utils/style.css" text="Định nghĩa" />
+         </children>
+      </Pane>
+      <Pane layoutX="25.0" layoutY="143.0" prefHeight="43.0" prefWidth="270.0" styleClass="searchBar" stylesheets="@../utils/style.css">
+         <children>
+            <TextField fx:id="quantityOfResult" layoutX="14.0" prefHeight="43.0" prefWidth="254.0" promptText="Nhập từ bạn muốn tìm kiếm" styleClass="searchText" stylesheets="@../utils/style.css" text="Kết quả liên quan" />
+         </children>
+      </Pane>
+      <Button fx:id="delete" layoutX="705.0" layoutY="207.0" mnemonicParsing="false" onAction="#deleteWord" styleClass="menuButton">
+         <tooltip>
+            <Tooltip text="Xóa từ" />
+         </tooltip>
+         <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../utils/icons/icon_xoa6.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fitHeight="44.0" fitWidth="58.0" layoutX="14.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true" rotate="-10.3">
+         <image>
+            <Image url="@../utils/images/img_(11).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="43.0" fitWidth="46.0" layoutX="339.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true" rotate="-17.1">
+         <image>
+            <Image url="@../utils/images/img_(13).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="93.0" fitWidth="81.0" layoutX="219.0" layoutY="444.0" opacity="0.69" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../utils/images/img_(7).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="88.0" fitWidth="81.0" layoutX="695.0" layoutY="424.0" opacity="0.59" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../utils/images/img_(5).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="60.0" fitWidth="77.0" layoutX="579.0" layoutY="102.0" opacity="0.92" pickOnBounds="true" preserveRatio="true" rotate="152.2">
+         <image>
+            <Image url="@../utils/images/img19.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="96.0" fitWidth="91.0" layoutX="250.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../utils/images/X_mas_∩╕Å___1_-removebg-preview.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="97.0" fitWidth="60.0" layoutX="715.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true" rotate="25.6">
+         <image>
+            <Image url="@../utils/images/star.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="68.0" fitWidth="91.0" layoutX="265.0" layoutY="91.0" opacity="0.74" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../utils/images/xoa╠å╠ün.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="128.0" fitWidth="169.0" layoutX="641.0" layoutY="80.0" opacity="0.66" pickOnBounds="true" preserveRatio="true" rotate="33.7">
+         <image>
+            <Image url="@../utils/images/happy.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="66.0" layoutX="279.0" layoutY="385.0" pickOnBounds="true" preserveRatio="true" rotate="13.2">
+         <image>
+            <Image url="@../utils/images/X_mas_∩╕Å___2_-removebg-preview.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

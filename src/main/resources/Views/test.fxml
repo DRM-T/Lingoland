@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="780.0" styleClass="container" stylesheets="@../utils/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.tuyet_chi_giang.controllers.Test">
+   <children>
+      <Button fx:id="fruit" layoutX="44.0" layoutY="129.0" mnemonicParsing="false" styleClass="topicButton">
+         <graphic>
+            <ImageView fitHeight="43.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../utils/image_buttonTopic/icon_fruit.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="animal" layoutX="43.0" layoutY="213.0" mnemonicParsing="false" styleClass="topicButton">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../utils/image_buttonTopic/icon_animal.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="job" layoutX="43.0" layoutY="297.0" mnemonicParsing="false" styleClass="topicButton">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../utils/image_buttonTopic/icon_job.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="transport" layoutX="42.0" layoutY="377.0" mnemonicParsing="false" styleClass="topicButton">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../utils/image_buttonTopic/icon_transport.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="body" layoutX="41.0" layoutY="458.0" mnemonicParsing="false" styleClass="topicButton">
+         <graphic>
+            <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../utils/image_buttonTopic/icon_body.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Pane layoutX="220.0" layoutY="80.0" prefHeight="75.0" prefWidth="557.0">
+         <children>
+            <TextField fx:id="explain1" layoutX="14.0" layoutY="16.0" prefHeight="43.0" prefWidth="197.0" styleClass="targetText" stylesheets="@../utils/style.css" text="Explain" />
+            <TextField fx:id="target1" layoutX="243.0" layoutY="13.0" prefHeight="50.0" prefWidth="197.0" promptText="?" styleClass="searchText" stylesheets="@../utils/style.css" />
+            <Button fx:id="check1" layoutX="450.0" layoutY="26.0" mnemonicParsing="false" styleClass="langButton" text="check" />
+            <Button fx:id="done1" layoutX="501.0" layoutY="26.0" mnemonicParsing="false" styleClass="menuButton" text="Done" />
+         </children></Pane>
+      <Pane layoutX="220.0" layoutY="170.0" prefHeight="75.0" prefWidth="557.0">
+         <children>
+            <TextField fx:id="explain2" layoutX="14.0" layoutY="16.0" prefHeight="43.0" prefWidth="197.0" promptText="Từ được chọn" styleClass="targetText" stylesheets="@../utils/style.css" text="Explain" />
+            <TextField fx:id="target2" layoutX="243.0" layoutY="13.0" prefHeight="50.0" prefWidth="197.0" promptText="?" styleClass="searchText" stylesheets="@../utils/style.css" />
+            <Button fx:id="check2" layoutX="450.0" layoutY="26.0" mnemonicParsing="false" styleClass="langButton" text="check" />
+            <Button fx:id="done2" layoutX="501.0" layoutY="26.0" mnemonicParsing="false" styleClass="menuButton" text="Done" />
+         </children>
+      </Pane>
+      <Pane layoutX="220.0" layoutY="260.0" prefHeight="75.0" prefWidth="557.0">
+         <children>
+            <TextField fx:id="explain3" layoutX="14.0" layoutY="16.0" prefHeight="43.0" prefWidth="197.0" promptText="Từ được chọn" styleClass="targetText" stylesheets="@../utils/style.css" text="Explain" />
+            <TextField fx:id="target3" layoutX="243.0" layoutY="13.0" prefHeight="50.0" prefWidth="197.0" promptText="?" styleClass="searchText" stylesheets="@../utils/style.css" />
+            <Button fx:id="check3" layoutX="450.0" layoutY="26.0" mnemonicParsing="false" styleClass="langButton" text="check" />
+            <Button fx:id="done3" layoutX="501.0" layoutY="26.0" mnemonicParsing="false" styleClass="menuButton" text="Done" />
+         </children>
+      </Pane>
+      <Pane layoutX="220.0" layoutY="350.0" prefHeight="75.0" prefWidth="557.0">
+         <children>
+            <TextField fx:id="explain4" layoutX="14.0" layoutY="16.0" prefHeight="43.0" prefWidth="197.0" promptText="Từ được chọn" styleClass="targetText" stylesheets="@../utils/style.css" text="Explain" />
+            <TextField fx:id="target4" layoutX="243.0" layoutY="13.0" prefHeight="50.0" prefWidth="197.0" promptText="?" styleClass="searchText" stylesheets="@../utils/style.css" />
+            <Button fx:id="check4" layoutX="450.0" layoutY="26.0" mnemonicParsing="false" styleClass="langButton" text="check" />
+            <Button fx:id="done4" layoutX="501.0" layoutY="26.0" mnemonicParsing="false" styleClass="menuButton" text="Done" />
+         </children>
+      </Pane>
+      <Pane layoutX="220.0" layoutY="440.0" prefHeight="75.0" prefWidth="557.0">
+         <children>
+            <TextField fx:id="explain5" layoutX="14.0" layoutY="16.0" prefHeight="43.0" prefWidth="197.0" promptText="Từ được chọn" styleClass="targetText" stylesheets="@../utils/style.css" text="Explain" />
+            <TextField fx:id="target5" layoutX="243.0" layoutY="13.0" prefHeight="50.0" prefWidth="197.0" promptText="?" styleClass="searchText" stylesheets="@../utils/style.css" />
+            <Button fx:id="check5" layoutX="450.0" layoutY="26.0" mnemonicParsing="false" styleClass="langButton" text="check" />
+            <Button fx:id="done5" layoutX="501.0" layoutY="26.0" mnemonicParsing="false" styleClass="menuButton" text="Done" />
+         </children>
+      </Pane>
+      <TextField fx:id="suggest" layoutX="560.0" layoutY="14.0" prefHeight="43.0" prefWidth="197.0" promptText="Từ được chọn" styleClass="targetText" stylesheets="@../utils/style.css" text="Gợi ý" />
+      <ImageView fx:id="image1" fitHeight="75.0" fitWidth="75.0" layoutX="140.0" layoutY="80.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image2" fitHeight="75.0" fitWidth="75.0" layoutX="140.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image3" fitHeight="75.0" fitWidth="75.0" layoutX="140.0" layoutY="260.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image4" fitHeight="75.0" fitWidth="75.0" layoutX="140.0" layoutY="350.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="image5" fitHeight="75.0" fitWidth="75.0" layoutX="140.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,61 @@
+|'th
+- ...
+
+|agree
+- đồng ý
+- sayyessss
+- okeeeeee
+
+|bird
+- chim bồ câu
+- ....
+
+|cake
+- bánh kém
+
+|duynguyn
+ngừi iu tuýt
+
+|flower
+- bông hoa
+
+|hat
+- ...asd
+
+|hello
+- xin chao
+
+|helloTuyet
+yaya
+
+|hi
+- chao
+
+|hold
+- ...
+
+|learn
+- học
+
+|school
+- trường học
+
+|teach
+- dạy học
+
+|testThemTu
+- thao tác này để kiểm tra:
++ thêm từ thành công?
++ viết lại file?
++ search lại được?
+|tuyet
+- sdjfh
+
+|uni
+- dai hoc
+
+|yaya
+- h1
+- h2
+- h3
+

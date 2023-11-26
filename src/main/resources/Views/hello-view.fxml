@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="585.0" prefWidth="870.0" styleClass="helloView" stylesheets="@../utils/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.tuyet_chi_giang.controllers.HelloController">
+
+    <AnchorPane fx:id="container" layoutX="6.0" layoutY="60.0" prefHeight="520.0" prefWidth="780.0" styleClass="container" />
+    <Button fx:id="add" layoutX="565.0" layoutY="13.0" minHeight="35.0" mnemonicParsing="false" prefWidth="35.0" styleClass="menuButton" stylesheets="@../utils/style.css">
+        <tooltip>
+            <Tooltip fx:id="tooltipAdd" text="Thêm từ" />
+        </tooltip>
+        <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../utils/icons/icon_trang/icon_add.png" />
+                </image>
+            </ImageView>
+        </graphic>
+    </Button>
+    <Button fx:id="translate" layoutX="452.0" layoutY="15.0" mnemonicParsing="false" styleClass="menuButton" stylesheets="@../utils/style.css">
+        <tooltip>
+            <Tooltip fx:id="tooltipTranslate" text="Dịch văn bản" />
+        </tooltip>
+        <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../utils/icons/icon_trang/icon_translate.png" />
+                </image>
+            </ImageView>
+        </graphic>
+    </Button>
+    <Button fx:id="exit" layoutX="798.0" layoutY="513.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="64.0" styleClass="menuButton" stylesheets="@../utils/style.css">
+      <graphic>
+         <ImageView fitHeight="150.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../utils/icons/icon_trang/icon_exit.png" />
+            </image>
+         </ImageView>
+      </graphic></Button>
+    <Button fx:id="setting" layoutX="799.0" layoutY="352.0" mnemonicParsing="false" styleClass="menuButton" stylesheets="@../utils/style.css">
+        <tooltip>
+            <Tooltip fx:id="tooltipSetting" text="Cài đặt" />
+        </tooltip>
+        <graphic>
+            <ImageView fitHeight="48.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../utils/icons/icon_trang/icon_setting.png" />
+                </image>
+            </ImageView>
+        </graphic>
+    </Button>
+    <Button fx:id="test" layoutX="667.0" layoutY="11.0" mnemonicParsing="false" styleClass="menuButton" stylesheets="@../utils/style.css">
+        <tooltip>
+            <Tooltip fx:id="tooltipTest" text="Kiểm tra" />
+        </tooltip>
+        <graphic>
+            <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../utils/icons/icon_trang/icon_test.png" />
+                </image>
+            </ImageView>
+        </graphic>
+    </Button>
+    <Button fx:id="game" layoutX="797.0" layoutY="199.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="72.0" styleClass="menuButton" stylesheets="@../utils/style.css">
+        <tooltip>
+            <Tooltip fx:id="tooltipGame" text="Game" />
+        </tooltip>
+        <graphic>
+            <ImageView fitHeight="150.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                <image>
+                    <Image url="@../utils/icons/icon_trang/icon_game.png" />
+                </image>
+            </ImageView>
+        </graphic>
+    </Button>
+    <Button fx:id="chill" layoutX="800.0" layoutY="83.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="64.0" styleClass="menuButton" stylesheets="@../utils/style.css">
+        <tooltip>
+            <Tooltip fx:id="tooltipChill" text="Thư giãn" />
+        </tooltip>
+      <graphic>
+         <ImageView fitHeight="150.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../utils/icons/icon_trang/icon_chill.png" />
+            </image>
+         </ImageView>
+      </graphic>
+    </Button>
+    <Button fx:id="aboutUs" layoutX="780.0" layoutY="2.0" mnemonicParsing="false" prefHeight="56.0" prefWidth="89.0" styleClass="menuButton" stylesheets="@../utils/style.css">
+        <tooltip>
+            <Tooltip fx:id="tooltipAboutUs" text="About us" />
+        </tooltip>
+      <graphic>
+         <ImageView fitHeight="50.0" fitWidth="71.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+               <Image url="@../utils/images/3gau.png" />
+            </image>
+         </ImageView>
+      </graphic>
+    </Button>
+    <Button fx:id="search" layoutX="339.0" layoutY="4.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="64.0" styleClass="menuButton" stylesheets="@../utils/style.css">
+        <tooltip>
+            <Tooltip fx:id="tooltipSearch" text="Tra &amp; sửa từ" />
+        </tooltip>
+      <graphic>
+            <ImageView fitHeight="45.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" styleClass="menuButton">
+                <image>
+                    <Image url="@../utils/icons/icon_trang/icon_timkiem.png" />
+                </image>
+            </ImageView>
+      </graphic>
+    </Button>
+   <ImageView fitHeight="131.0" fitWidth="254.0" layoutX="31.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@../utils/images/logo.png" />
+      </image>
+   </ImageView>
+
+</AnchorPane>

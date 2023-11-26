@@ -1,0 +1,239 @@
+@font-face {
+    src: url("utils/fonts/Tinos/Tinos-Bold.ttf");
+    src: url("utils/fonts/Tinos/Tinos-BoldItalic.ttf");
+    src: url("utils/fonts/Tinos/Tinos-Italic.ttf");
+    src: url("utils/fonts/Tinos/Tinos-Regular.ttf");
+}
+/** nền cho hello-view, bo tròn các góc */
+.helloView{
+    -fx-background-color: #5F6F52;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+/** nền cho phần chuyển trang, bo tròn */
+.container{
+    -fx-background-color:  #F4EAE0;
+    -fx-background-radius: 10;
+    -fx-border-radius: 10;
+}
+
+/** Khoảng cách text với viền trong các phần tử menu = 0 */
+.menu{
+    -fx-padding: 0;
+}
+
+/** seach. */
+.searchBar{
+    -fx-background-color:   #B99470;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+}
+
+.searchText{
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Tinos";
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+    -fx-border: none ;
+}
+
+.addText{
+    -fx-background-color: transparent;
+    -fx-text-fill: #5F6F52;
+    -fx-font-family: "Tinos";
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+    -fx-border: none ;
+}
+
+.devideBar{
+    -fx-background-color: #B99470;
+}
+.anchorPane{
+    -fx-background-color:   #ffffff;
+    -fx-background-radius: 30;
+    -fx-border-radius: 30;
+    -fx-border-width: 3px; /* Độ dày của viền */
+    -fx-border-color: #B99470; /* Màu sắc của viền */
+}
+
+.anchorPaneAdd{
+    -fx-background-color:   #ffffff;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-border-width: 3px; /* Độ dày của viền */
+    -fx-border-color: #B99470; /* Màu sắc của viền */
+}
+
+.addButton:hover {
+    -fx-background-color: #f5297b;
+    -fx-text-fill: #ffffff;
+}
+
+.addButton {
+    -fx-background-color: #B99470;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-text-fill: #5F6F52;
+    -fx-font-family: "Tinos";
+    -fx-font-weight: bold;
+    -fx-font-size: 20px; /* Thêm đơn vị px sau giá trị */
+}
+
+
+.menuButton{
+    -fx-background-color:   transparent;
+    -fx-text-fill: #f5297b;
+}
+
+.menuButton:hover {
+    -fx-background-color: #f5297b;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+}
+
+.addSuccessLable{
+    -fx-background-color:   #5F6F52;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Tinos";
+    -fx-font-weight: regular;
+    -fx-font-size: 15;
+}
+
+.explainText {
+    -fx-background-color: transparent;
+    -fx-text-fill: #5F6F52;
+    -fx-font-family: "Tinos";
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+    -fx-border: none ;
+}
+
+.targetText {
+    -fx-background-color: transparent;
+    -fx-text-fill: #5F6F52;
+    -fx-font-family: "Tinos";
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+    -fx-border: none ;
+}
+
+.list-view {
+//-fx-font-size: 14px;
+    -fx-text-fill: #efe1a5;
+    -fx-font-family: "Tinos";
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+    -fx-border: #ffffff ;
+}
+
+/* Định dạng mục chưa được chọn */
+.list-view .list-cell {
+    -fx-background-color: #ffffff;
+    -fx-background-insets: 0;
+    -fx-border: #ffffff
+}
+
+/* Định dạng mục được chọn */
+.list-view .list-cell:selected {
+    -fx-background-color: #5F6F52;
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+    -fx-border-color: #ffffff;
+}
+
+/* Định dạng thanh cuộn */
+.list-view .scroll-bar {
+    -fx-background-color: #ffffff;
+    -fx-border: #ffffff
+}
+
+/* Định dạng phần nằm trong thanh cuộn */
+.list-view .scroll-bar > .track {
+    -fx-background-color: #efe1a5;
+}
+
+/* Định dạng nút cuộn lên */
+.list-view .scroll-bar > .increment-button {
+    -fx-background-color: #b99470;
+}
+
+/* Định dạng nút cuộn xuống */
+.list-view .scroll-bar > .decrement-button {
+    -fx-background-color: #b99470;
+}
+
+/* Định dạng thanh cuộn */
+.list-view .scroll-bar > .thumb {
+    -fx-background-color: #debf30;
+}
+
+/* Định dạng khi di chuột qua thanh cuộn */
+.list-view .scroll-bar > .thumb:hover {
+    -fx-background-color: #b99470;
+}
+
+.label_voca_target {
+    -fx-background-color:   #5F6F52;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Tinos";
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+}
+
+.label_voca_explain {
+    -fx-background-color: #c26b17;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Tinos";
+    -fx-font-weight: bold;
+    -fx-font-size: 15;
+}
+
+.langButton {
+    -fx-background-color: #5F6F52;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-text-fill: #ffffff;
+    -fx-font-family: "Tinos";
+    -fx-font-weight: bold;
+    -fx-font-size: 12;
+}
+
+.langButton:hover {
+    -fx-background-color: #f5297b;
+    -fx-text-fill: #ffffff;
+}
+
+.topicButton {
+    -fx-background-color: #5F6F52;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+}
+
+.topicButton:hover {
+    -fx-background-color: #f5297b;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+}
+
+.image-view {
+    -fx-border-color: black; /* Màu viền */
+    -fx-border-width: 1px; /* Độ rộng viền */
+}
+
+
+.grid-pane {
+    -fx-background-color: #fff1f4;
+    -fx-border-color: #5F6F52;
+}
+
+
+

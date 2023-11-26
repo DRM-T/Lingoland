@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.tuyet_chi_giang.HelloApplication">
+   <children>
+      <Pane layoutX="283.0" layoutY="20.0" prefHeight="87.0" prefWidth="303.0">
+         <children>
+            <TextField layoutX="30.0" layoutY="15.0" prefHeight="25.0" prefWidth="254.0" text="Nhập từ bạn muốn tìm kiếm" />
+            <Label layoutX="48.0" layoutY="44.0" text="Rất tiếc chúng tôi không cung cấp từ này" />
+         </children>
+      </Pane>
+      <Pane layoutX="11.0" layoutY="20.0" prefHeight="87.0" prefWidth="254.0" />
+      <AnchorPane layoutX="17.0" layoutY="115.0" prefHeight="273.0" prefWidth="568.0">
+         <children>
+            <AnchorPane layoutX="210.0" layoutY="14.0" prefHeight="253.0" prefWidth="344.0">
+               <children>
+                  <Pane layoutX="14.0" layoutY="6.0" prefHeight="51.0" prefWidth="135.0">
+                     <children>
+                        <Label layoutX="43.0" layoutY="13.0" prefHeight="17.0" prefWidth="68.0" text="Giải nghĩa" />
+                     </children>
+                  </Pane>
+                  <Button layoutX="149.0" layoutY="19.0" mnemonicParsing="false" text="Âm thanh">
+                     <tooltip>
+                        <Tooltip text="Phát âm" />
+                     </tooltip>
+                  </Button>
+                  <Button layoutX="228.0" layoutY="19.0" mnemonicParsing="false" text="Chỉnh sửa">
+                     <tooltip>
+                        <Tooltip text="Sửa từ" />
+                     </tooltip>
+                  </Button>
+                  <Button layoutX="304.0" layoutY="19.0" mnemonicParsing="false" text="Xóa">
+                     <tooltip>
+                        <Tooltip text="Xóa từ" />
+                     </tooltip>
+                  </Button>
+                  <TextArea layoutX="14.0" layoutY="58.0" prefHeight="186.0" prefWidth="317.0" />
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="253.0" prefWidth="181.0">
+               <children>
+                  <Pane prefHeight="43.0" prefWidth="191.0">
+                     <children>
+                        <Label layoutX="43.0" layoutY="13.0" prefHeight="17.0" prefWidth="122.0" text="15 kết quả liên quan" />
+                     </children>
+                  </Pane>
+                  <ListView layoutX="10.0" layoutY="44.0" prefHeight="202.0" prefWidth="172.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
